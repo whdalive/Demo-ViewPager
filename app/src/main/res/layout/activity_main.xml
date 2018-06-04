@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1be2be"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_tab_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewPager + Tablayout + Fragment"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewPager + Banner"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_trans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewPager + PageTransformer"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+</LinearLayout>
